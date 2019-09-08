@@ -1,0 +1,101 @@
+body{
+    background: url("../images/palm-leaf.png");
+}
+
+.m-padded-mini{
+    padding: 0.3em !important;
+}
+.m-padded-tb-mini{
+    padding-top:0.2em !important;
+    padding-bottom:0.2em !important;
+}
+.m-padded-tb-small{
+    padding-top:0.5em !important;
+    padding-bottom:0.5em !important;
+}
+.m-padded-tb{
+    padding-top:1em !important;
+    padding-bottom:1em !important;
+}
+.m-padded-tb-large{
+    padding-top:2em !important;
+    padding-bottom:2em !important;
+}
+.m-padded-tb-big{
+    padding-top:3em !important;
+    padding-bottom:3em !important;
+}
+.m-padded-tb-huge{
+    padding-top:4em !important;
+    padding-bottom:4em !important;
+}
+.m-padded-tb-massive{
+    padding-top:5em !important;
+    padding-bottom:5em !important;
+}
+/*-----------margin--------*/
+.m-margin-tb-mini{
+    margin-left:-150px !important;
+}
+.m-margin-tb-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+    margin-left: 3em !important;
+}
+/*-----------text--------*/
+/*字体粗细*/
+.m-text-thin{
+    font-weight: 300 !important;
+}
+.m-text-strong{
+    font-weight: 500 !important;
+}
+/*字体间隔*/
+.m-text-spaced{
+    letter-spacing: 1px; !important;
+}
+/*字体行高*/
+.m-text-lined {
+    line-height: 1.8;
+}
+/*字体透明度*/
+.m-opacity-mini{
+    opacity: 0.8 !important;
+}
+.m-text-small{
+    font-size: 13px;
+}
+
+/*-----------display-------*/
+.m-inline-block{
+    display:inline-block !important;
+}
+
+.text-black{
+    color:black;
+}
+
+.m-right-top{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.m-mobile-show{
+    display: none !important;
+}
+@media screen and (max-width: 786px) {
+    .m-mobile-hide{
+        display: none !important;
+    }
+    .m-mobile-show{
+        display: block !important;
+    }
+}
+
+.m-container{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+.m-money-hover:hover{
+    color: green;
+}

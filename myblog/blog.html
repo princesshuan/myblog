@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客详情</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="./static/css/me.css">
+</head>
+<body>
+
+   <!--导航-->
+   <nav class="ui inverted attached segment m-padded-tb-mini">
+       <div class="ui container ">
+          <div class="ui inverted stackable menu ">
+             <h2 class="ui teal header item">MyBlog</h2>&nbsp;&nbsp;&nbsp;
+              <a href="index.html" class="m-item item m-mobile-hide" ><i class="mini home icon"></i>首页</a>&nbsp;&nbsp;&nbsp;
+              <a href="#" class="m-item item m-mobile-hide" ><i class="mini idea icon"></i>分类</a>&nbsp;&nbsp;&nbsp;
+              <a href="#" class="m-item item m-mobile-hide" ><i class="mini tags icon"></i>标签</a>&nbsp;&nbsp;&nbsp;
+              <a href="#" class="m-item item m-mobile-hide" ><i class="mini clone icon"></i>归档</a>&nbsp;&nbsp;&nbsp;
+              <a href="#" class="m-item item m-mobile-hide" ><i class="mini info icon"></i>个人中心</a>&nbsp;&nbsp;&nbsp;
+              <div class="m-item right item m-mobile-hide">
+                  <i class="pencil alternate icon"></i><a href="#" class="" >写博客</a>&nbsp;&nbsp;&nbsp;
+                  <button class="ui teal button" style="margin-left:50px;" onclick="window.location.href='login.html'">登陆</button> &nbsp;&nbsp;&nbsp;
+                  <button class="ui teal button" onclick="window.location.href='register.html'" >注册</button>
+                  <!--<div class="ui icon input focus">
+                      <input type="text" placeholder="搜索..." style="border-radius: 10px">
+                      <i class="search link icon"></i>
+                  </div>-->
+              </div>
+
+          </div>
+       </div>
+       <div class="ui menu toggle black icon button m-right-top m-mobile-show">
+           <i class="sidebar icon"></i>
+       </div>
+   </nav>
+
+   <!--中间内容-->
+   <div class="m-container m-padded-tb-big">
+       <div class="ui container">
+           <!--头部-->
+           <div class="ui top attached segment">
+               <div class="ui horizontal  link list">
+                   <div class="item">
+                       <img src="https://unsplash.it/100/100?image=996" alt="" class="ui avatar image">
+                       <div class="content"><a href="#" class="header">格格不入</a></div>
+                   </div>
+                   <div class="item">
+                       <i class="calendar icon"></i> 2019-08-08
+                   </div>
+                   <div class="item">
+                       <i class="eye icon"></i> 20
+                   </div>
+               </div>
+           </div>
+           <!--图片收藏-->
+           <div class="ui attached segment">
+               <img src="https://unsplash.it/800/500?image=998" class="ui rounded image">
+           </div>
+           <!--内容-->
+           <div class="ui attached segment">
+               <div class="ui right aligned basic segment">
+                   <div class="ui orange basic label">原创</div>
+               </div>
+               <h2 class="ui center aligned header m-text-thin">你的朋友圈有多少人了解你？</h2>
+               <div id="wordsView" class="markdown-body editormd-html-preview" lg-uid="lg0" deep="8" lg-event-uid="">
+
+                   <blockquote>
+                       <p>你对陌生人而言，都还有十条可见，你对我却三天可见，那你加我干啥？</p>
+                   </blockquote>
+                   <p>微信、QQ是当代人接触到最多的社交软件，上至爷爷奶奶、下到几岁小朋友，因为有了它们，我们与朋友间的交流看似多了，可是，真的如此吗？</p>
+                   <p>有时候，我也会去看下朋友们最近的生活，但是当我点进头像，打开朋友圈时，出现在我眼前的却是：“朋友仅展示最近三天的朋友圈”</p>
+                   <p>看到这我想大多数人的内心都会有点失落，都会在想是不是我被删了，也许，你不经意间的设置，带给别人的会是多少的困惑。</p>
+                   <p><img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/blogArticles/2018-12-22/1545455453.png" alt="" data-src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/blogArticles/2018-12-22/1545455453.png" class="enlargePicture" lg-event-uid="&amp;1"></p>
+                   <p>曾经问过一个朋友，“你说朋友圈三天可见和被屏蔽了，哪个更伤人？”，他的回答是“被屏蔽”，但是过了几天，他又改口的对我说三天可见比被屏蔽更加伤人。</p>
+                   <p>可能有的人会问，为什么？不是被屏蔽才是最扎心的吗？</p>
+                   <p>其实，你仔细想想，被屏蔽是什么样的情况</p>
+                   <p><strong>大多数选择屏蔽你的人，你和他之间的感情，都是早已生疏的了。</strong></p>
+                   <p>但是朋友圈三天可见呢，往往只有在你真正需要时才会点进她的朋友圈，才会看到这几个字。没有谁会没事去看你的朋友圈，你所设置的朋友圈三天可见，只会伤害那些你在乎和在乎你的人。</p>
+                   <p><strong>屏蔽，只针对一个人。朋友圈三天可见，却是针对所有人，同时也包括那些你在乎和在乎你的人。</strong></p>
+                   <p><img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/blogArticles/2018-12-22/1545456966.jpeg" alt="" data-src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/blogArticles/2018-12-22/1545456966.jpeg" class="enlargePicture" lg-event-uid="&amp;2"></p>
+                   <p>朋友圈就像人与人之间沟通的桥梁，可是，朋友圈三天可见，却把这座桥梁彻底的锁住了。</p>
+                   <p>不管是微信还是QQ，在我看来这些都是鸡肋的功能，只会让人变的生疏，大家每天都很忙，没有谁会经常去点开你的朋友圈，除了在乎你的人，关心你的人之外，也没有谁会经常去翻你的朋友圈。</p>
+                   <p>如果可以，请把朋友圈三天可见，这把大锁给解开吧。</p>
+                   <p><span style="color:red"><strong>请记住，你能屏蔽的都是在乎你的人，就像你能伤害的都是在乎你的人一样。</strong></span></p>
+               </div>
+               <!--标签-->
+               <div class="m-padded-tb">
+                   <div class="ui basic teal left pointing label ">生活笔记</div>
+                   <div class="ui basic teal left pointing label ">原创</div>
+               </div>
+               <!--赞赏-->
+               <div class="ui center aligned basic segment">
+                    <button id="payButton" class="ui red basic circular button ">赞赏</button>
+               </div>
+               <div class="ui payQ flowing popup transition hidden">
+               <div class="ui teal basic label">
+                   <div class="ui images" style="font-size: inherit !important;">
+                       <div class="image" style="width: 150px">
+                           <img src="./static/images/WeChat.jpg" alt="" class="ui rounded bordered image" >
+                           <div>支付宝</div>
+                       </div>
+                       <div class="image" style="width: 150px">
+                           <img src="./static/images/WeChat.jpg" alt="" class="ui rounded bordered image">
+                           <div>微信</div>
+                       </div>
+
+                   </div>
+               </div>
+               </div>
+           <!--博客信息-->
+           <div class="ui attached positive message">
+               <div class="ui grid">
+                   <div class="eleven wide column">
+                       <ui class="list">
+                           <li>本文作者：张海洋 </li>
+                           <li>原文链接：https://www.zhyocean.cn/article/1545457296</li>
+                           <li> 版权声明： 本博客所有文章除特别声明外，均采用 CC BY 3.0 CN协议进行许可。转载请署名作者且注明文章出处。</li>
+                       </ui>
+                   </div>
+                   <div class="five wide column">
+                       <img src="./static/images/WeChat.jpg" alt="" class="ui rounded bordered images" style="width: 120px;">
+                   </div>
+               </div>
+           </div>
+           <!--留言区-->
+           <div class="ui attached segment">
+
+           </div>
+       </div>
+   </div>
+   </div>
+   <!--底部-->
+   <footer class="ui inverted vertical segment m-padded-tb-large">
+       <div class="ui center aligned  container">
+           <div class="ui inverted divided grid">
+               <div class="three wide column">
+                   <img class="ui rounded image" src="./static/images/WeChat.jpg" alt="" style="width: 100px">
+                   <div style="margin-left:-80px">
+                       <p class="m-text-thin m-text-spaced m-opacity-mini"> 扫码加我微信呀~</p>
+                   </div>
+               </div>
+               <div class="three wide column">
+                   <h4 class="ui inverted header m-opacity-mini">最新博文</h4>
+                   <div class="ui inverted link list">
+                       <a href="#" class="item">用户故事</a>
+                       <a href="#" class="item">用户故事</a>
+                       <a href="#" class="item">用户故事</a>
+                   </div>
+               </div>
+               <div class="three wide column">
+                   <h4 class="ui inverted header m-opacity-mini">联系我</h4>
+                   <div class="ui inverted link list">
+                       <a href="#" class="item">email：1750890146@qq.com</a>
+                       <a href="#" class="item">微博：格格zhi猫</a>
+                   </div>
+               </div>
+               <div class="seven wide column">
+                   <h4 class="ui inverted header m-opacity-mini">个人简介</h4>
+                   <p class="m-text-thin m-text-spaced m-opacity-mini m-text-small">这是我的个人博客，会在这分享我的心情、编程、思考等内容,希望可以帮助到有需要的人....</p>
+               </div>
+           </div>
+           <div class="ui inverted section divider"></div>
+           <p class="m-text-thin m-text-spaced m-opacity-mini">Copyright©2019-2016 myblog Designed by zhouhuan</p>
+       </div>
+   </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+   <script>
+        $('.menu.toggle').click(function () {
+            $('.m-item').toggleClass('m-mobile-hide');
+        });
+
+        $('#payButton').popup({
+            popup:$('.payQ.popup'),
+            on: 'click',
+            position:'bottom center'
+        });
+   </script>
+</body>
+</html>
